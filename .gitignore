@@ -1,0 +1,16 @@
+# ignore node_modules
+leadtec_new/WebpackEnv/node_modules/*
+
+# ignore package-lock json
+leadtec_new/WebpackEnv/package-lock.json
+
+# ingore boundle file
+leadtec_new/WebData/BundleResult/*
+
+# ingore packages
+packages/*
+
+# inogre vs code
+.vs/*
+leadtec_new/bin/*
+leadtec_new/obj/*

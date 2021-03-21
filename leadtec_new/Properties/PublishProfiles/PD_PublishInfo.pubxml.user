@@ -1,0 +1,421 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+This file is used by the publish/package process of your Web project. You can customize the behavior of this process
+by editing this MSBuild file. In order to learn more about this please visit https://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <_PublishTargetUrl>C:\Users\Danny\Desktop\接案\201908Bbigcase\Release</_PublishTargetUrl>
+  </PropertyGroup>
+  <ItemGroup>
+    <File Include="bin/Cryptography.dll">
+      <publishTime>06/03/2019 11:17:34</publishTime>
+    </File>
+    <File Include="bin/IncomeStatement.dll">
+      <publishTime>05/16/2020 23:51:55</publishTime>
+    </File>
+    <File Include="bin/IncomeStatement.pdb">
+      <publishTime>05/16/2020 23:51:55</publishTime>
+    </File>
+    <File Include="bin/jose-jwt.dll">
+      <publishTime>06/21/2017 19:57:54</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Threading.Tasks.dll">
+      <publishTime>04/07/2014 12:26:14</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Threading.Tasks.Extensions.Desktop.dll">
+      <publishTime>04/07/2014 12:26:14</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Threading.Tasks.Extensions.dll">
+      <publishTime>04/07/2014 12:26:14</publishTime>
+    </File>
+    <File Include="bin/Newtonsoft.Json.dll">
+      <publishTime>04/22/2019 01:06:16</publishTime>
+    </File>
+    <File Include="Error.html">
+      <publishTime>06/03/2019 11:17:30</publishTime>
+    </File>
+    <File Include="Global.asax">
+      <publishTime>06/03/2019 11:17:30</publishTime>
+    </File>
+    <File Include="Login.html">
+      <publishTime>03/03/2020 00:23:46</publishTime>
+    </File>
+    <File Include="Main.aspx">
+      <publishTime>05/16/2020 23:46:17</publishTime>
+    </File>
+    <File Include="packages.config">
+      <publishTime>06/03/2019 11:17:30</publishTime>
+    </File>
+    <File Include="Web.config">
+      <publishTime>10/25/2019 00:16:44</publishTime>
+    </File>
+    <File Include="WebData/BundleResult/Login/IS_20190901_min_v1.js">
+      <publishTime>09/01/2019 22:18:56</publishTime>
+    </File>
+    <File Include="WebData/BundleResult/Login/IS_20190901_min_v1_CSS.css">
+      <publishTime>09/01/2019 22:18:56</publishTime>
+    </File>
+    <File Include="WebData/BundleResult/Login/IS_20190903_min_v1.js">
+      <publishTime>09/03/2019 00:56:19</publishTime>
+    </File>
+    <File Include="WebData/BundleResult/Login/IS_20190903_min_v1_CSS.css">
+      <publishTime>09/03/2019 00:56:19</publishTime>
+    </File>
+    <File Include="WebData/BundleResult/Login/IS_20190904_min_v1.js">
+      <publishTime>09/04/2019 01:24:44</publishTime>
+    </File>
+    <File Include="WebData/BundleResult/Login/IS_20190904_min_v1_CSS.css">
+      <publishTime>09/04/2019 01:24:44</publishTime>
+    </File>
+    <File Include="WebData/BundleResult/Login/IS_20190905_min_v1.js">
+      <publishTime>09/05/2019 02:15:10</publishTime>
+    </File>
+    <File Include="WebData/BundleResult/Login/IS_20190905_min_v1_CSS.css">
+      <publishTime>09/05/2019 02:15:10</publishTime>
+    </File>
+    <File Include="WebData/BundleResult/Login/IS_20190915_min_v1.js">
+      <publishTime>09/15/2019 14:58:22</publishTime>
+    </File>
+    <File Include="WebData/BundleResult/Login/IS_20190915_min_v1_CSS.css">
+      <publishTime>09/15/2019 14:58:22</publishTime>
+    </File>
+    <File Include="WebData/BundleResult/Login/IS_20190916_min_v1.js">
+      <publishTime>09/17/2019 01:38:04</publishTime>
+    </File>
+    <File Include="WebData/BundleResult/Login/IS_20190916_min_v1_CSS.css">
+      <publishTime>09/17/2019 01:38:04</publishTime>
+    </File>
+    <File Include="WebData/BundleResult/Login/IS_20190917_min_v1.js">
+      <publishTime>09/17/2019 23:58:32</publishTime>
+    </File>
+    <File Include="WebData/BundleResult/Login/IS_20190917_min_v1_CSS.css">
+      <publishTime>09/17/2019 23:58:32</publishTime>
+    </File>
+    <File Include="WebData/BundleResult/Login/IS_20190927_min_v1.js">
+      <publishTime>09/27/2019 01:50:28</publishTime>
+    </File>
+    <File Include="WebData/BundleResult/Login/IS_20190927_min_v1_CSS.css">
+      <publishTime>09/27/2019 01:50:28</publishTime>
+    </File>
+    <File Include="WebData/BundleResult/Login/IS_20190929_min_v1.js">
+      <publishTime>09/29/2019 18:10:27</publishTime>
+    </File>
+    <File Include="WebData/BundleResult/Login/IS_20190929_min_v1_CSS.css">
+      <publishTime>09/29/2019 18:10:27</publishTime>
+    </File>
+    <File Include="WebData/BundleResult/Login/IS_20191020_min_v1.js">
+      <publishTime>10/20/2019 20:39:17</publishTime>
+    </File>
+    <File Include="WebData/BundleResult/Login/IS_20191020_min_v1_CSS.css">
+      <publishTime>10/20/2019 20:39:17</publishTime>
+    </File>
+    <File Include="WebData/BundleResult/Login/IS_20191022_min_v1.js">
+      <publishTime>10/22/2019 19:48:11</publishTime>
+    </File>
+    <File Include="WebData/BundleResult/Login/IS_20191022_min_v1_CSS.css">
+      <publishTime>10/22/2019 19:48:11</publishTime>
+    </File>
+    <File Include="WebData/BundleResult/Login/IS_20191024_min_v1.js">
+      <publishTime>10/24/2019 01:08:45</publishTime>
+    </File>
+    <File Include="WebData/BundleResult/Login/IS_20191024_min_v1_CSS.css">
+      <publishTime>10/24/2019 01:08:45</publishTime>
+    </File>
+    <File Include="WebData/BundleResult/Login/IS_20191027_min_v1.js">
+      <publishTime>10/27/2019 17:32:44</publishTime>
+    </File>
+    <File Include="WebData/BundleResult/Login/IS_20191027_min_v1_CSS.css">
+      <publishTime>10/27/2019 17:32:44</publishTime>
+    </File>
+    <File Include="WebData/BundleResult/Login/IS_20191029_min_v1.js">
+      <publishTime>10/29/2019 00:14:34</publishTime>
+    </File>
+    <File Include="WebData/BundleResult/Login/IS_20191029_min_v1_CSS.css">
+      <publishTime>10/29/2019 00:14:34</publishTime>
+    </File>
+    <File Include="WebData/BundleResult/Login/IS_20191117_min_v1.js">
+      <publishTime>11/17/2019 18:14:15</publishTime>
+    </File>
+    <File Include="WebData/BundleResult/Login/IS_20191117_min_v1_CSS.css">
+      <publishTime>11/17/2019 18:14:15</publishTime>
+    </File>
+    <File Include="WebData/BundleResult/Login/IS_20191118_min_v1.js">
+      <publishTime>11/19/2019 00:00:12</publishTime>
+    </File>
+    <File Include="WebData/BundleResult/Login/IS_20191118_min_v1_CSS.css">
+      <publishTime>11/19/2019 00:00:12</publishTime>
+    </File>
+    <File Include="WebData/BundleResult/Login/IS_20191204_min_v1.js">
+      <publishTime>12/04/2019 00:48:28</publishTime>
+    </File>
+    <File Include="WebData/BundleResult/Login/IS_20191204_min_v1_CSS.css">
+      <publishTime>12/04/2019 00:48:28</publishTime>
+    </File>
+    <File Include="WebData/BundleResult/Login/IS_20191205_min_v1.js">
+      <publishTime>12/05/2019 22:32:04</publishTime>
+    </File>
+    <File Include="WebData/BundleResult/Login/IS_20191205_min_v1_CSS.css">
+      <publishTime>12/05/2019 22:32:04</publishTime>
+    </File>
+    <File Include="WebData/BundleResult/Login/IS_20191222_min_v1.js">
+      <publishTime>12/22/2019 21:44:47</publishTime>
+    </File>
+    <File Include="WebData/BundleResult/Login/IS_20191222_min_v1_CSS.css">
+      <publishTime>12/22/2019 21:44:47</publishTime>
+    </File>
+    <File Include="WebData/BundleResult/Login/IS_20191226_min_v1.js">
+      <publishTime>01/17/2020 20:39:47</publishTime>
+    </File>
+    <File Include="WebData/BundleResult/Login/IS_20191226_min_v1_CSS.css">
+      <publishTime>01/17/2020 20:39:47</publishTime>
+    </File>
+    <File Include="WebData/BundleResult/Login/IS_20200117_min_v1.js">
+      <publishTime>05/16/2020 23:51:06</publishTime>
+    </File>
+    <File Include="WebData/BundleResult/Login/IS_20200117_min_v1_CSS.css">
+      <publishTime>05/16/2020 23:51:06</publishTime>
+    </File>
+    <File Include="WebData/BundleResult/Main/IS_20190901_min_v1.js">
+      <publishTime>09/01/2019 22:18:56</publishTime>
+    </File>
+    <File Include="WebData/BundleResult/Main/IS_20190901_min_v1_CSS.css">
+      <publishTime>09/01/2019 22:18:56</publishTime>
+    </File>
+    <File Include="WebData/BundleResult/Main/IS_20190903_min_v1.js">
+      <publishTime>09/03/2019 00:56:19</publishTime>
+    </File>
+    <File Include="WebData/BundleResult/Main/IS_20190903_min_v1_CSS.css">
+      <publishTime>09/03/2019 00:56:19</publishTime>
+    </File>
+    <File Include="WebData/BundleResult/Main/IS_20190904_min_v1.js">
+      <publishTime>09/04/2019 01:24:44</publishTime>
+    </File>
+    <File Include="WebData/BundleResult/Main/IS_20190904_min_v1_CSS.css">
+      <publishTime>09/04/2019 01:24:44</publishTime>
+    </File>
+    <File Include="WebData/BundleResult/Main/IS_20190905_min_v1.js">
+      <publishTime>09/05/2019 02:15:10</publishTime>
+    </File>
+    <File Include="WebData/BundleResult/Main/IS_20190905_min_v1_CSS.css">
+      <publishTime>09/05/2019 02:15:10</publishTime>
+    </File>
+    <File Include="WebData/BundleResult/Main/IS_20190915_min_v1.js">
+      <publishTime>09/15/2019 14:58:22</publishTime>
+    </File>
+    <File Include="WebData/BundleResult/Main/IS_20190915_min_v1_CSS.css">
+      <publishTime>09/15/2019 14:58:22</publishTime>
+    </File>
+    <File Include="WebData/BundleResult/Main/IS_20190916_min_v1.js">
+      <publishTime>09/17/2019 01:38:04</publishTime>
+    </File>
+    <File Include="WebData/BundleResult/Main/IS_20190916_min_v1_CSS.css">
+      <publishTime>09/17/2019 01:38:04</publishTime>
+    </File>
+    <File Include="WebData/BundleResult/Main/IS_20190917_min_v1.js">
+      <publishTime>09/17/2019 23:58:32</publishTime>
+    </File>
+    <File Include="WebData/BundleResult/Main/IS_20190917_min_v1_CSS.css">
+      <publishTime>09/17/2019 23:58:32</publishTime>
+    </File>
+    <File Include="WebData/BundleResult/Main/IS_20190927_min_v1.js">
+      <publishTime>09/27/2019 01:50:28</publishTime>
+    </File>
+    <File Include="WebData/BundleResult/Main/IS_20190927_min_v1_CSS.css">
+      <publishTime>09/27/2019 01:50:28</publishTime>
+    </File>
+    <File Include="WebData/BundleResult/Main/IS_20190929_min_v1.js">
+      <publishTime>09/29/2019 18:10:27</publishTime>
+    </File>
+    <File Include="WebData/BundleResult/Main/IS_20190929_min_v1_CSS.css">
+      <publishTime>09/29/2019 18:10:27</publishTime>
+    </File>
+    <File Include="WebData/BundleResult/Main/IS_20191020_min_v1.js">
+      <publishTime>10/20/2019 20:39:17</publishTime>
+    </File>
+    <File Include="WebData/BundleResult/Main/IS_20191020_min_v1_CSS.css">
+      <publishTime>10/20/2019 20:39:17</publishTime>
+    </File>
+    <File Include="WebData/BundleResult/Main/IS_20191022_min_v1.js">
+      <publishTime>10/22/2019 19:48:11</publishTime>
+    </File>
+    <File Include="WebData/BundleResult/Main/IS_20191022_min_v1_CSS.css">
+      <publishTime>10/22/2019 19:48:11</publishTime>
+    </File>
+    <File Include="WebData/BundleResult/Main/IS_20191024_min_v1.js">
+      <publishTime>10/24/2019 01:08:45</publishTime>
+    </File>
+    <File Include="WebData/BundleResult/Main/IS_20191024_min_v1_CSS.css">
+      <publishTime>10/24/2019 01:08:45</publishTime>
+    </File>
+    <File Include="WebData/BundleResult/Main/IS_20191027_min_v1.js">
+      <publishTime>10/27/2019 17:32:44</publishTime>
+    </File>
+    <File Include="WebData/BundleResult/Main/IS_20191027_min_v1_CSS.css">
+      <publishTime>10/27/2019 17:32:44</publishTime>
+    </File>
+    <File Include="WebData/BundleResult/Main/IS_20191029_min_v1.js">
+      <publishTime>10/29/2019 00:14:34</publishTime>
+    </File>
+    <File Include="WebData/BundleResult/Main/IS_20191029_min_v1_CSS.css">
+      <publishTime>10/29/2019 00:14:34</publishTime>
+    </File>
+    <File Include="WebData/BundleResult/Main/IS_20191117_min_v1.js">
+      <publishTime>11/17/2019 18:14:15</publishTime>
+    </File>
+    <File Include="WebData/BundleResult/Main/IS_20191117_min_v1_CSS.css">
+      <publishTime>11/17/2019 18:14:15</publishTime>
+    </File>
+    <File Include="WebData/BundleResult/Main/IS_20191118_min_v1.js">
+      <publishTime>11/19/2019 00:00:12</publishTime>
+    </File>
+    <File Include="WebData/BundleResult/Main/IS_20191118_min_v1_CSS.css">
+      <publishTime>11/19/2019 00:00:12</publishTime>
+    </File>
+    <File Include="WebData/BundleResult/Main/IS_20191204_min_v1.js">
+      <publishTime>12/04/2019 00:48:28</publishTime>
+    </File>
+    <File Include="WebData/BundleResult/Main/IS_20191204_min_v1_CSS.css">
+      <publishTime>12/04/2019 00:48:28</publishTime>
+    </File>
+    <File Include="WebData/BundleResult/Main/IS_20191205_min_v1.js">
+      <publishTime>12/05/2019 22:32:04</publishTime>
+    </File>
+    <File Include="WebData/BundleResult/Main/IS_20191205_min_v1_CSS.css">
+      <publishTime>12/05/2019 22:32:04</publishTime>
+    </File>
+    <File Include="WebData/BundleResult/Main/IS_20191222_min_v1.js">
+      <publishTime>12/22/2019 21:44:47</publishTime>
+    </File>
+    <File Include="WebData/BundleResult/Main/IS_20191222_min_v1_CSS.css">
+      <publishTime>12/22/2019 21:44:47</publishTime>
+    </File>
+    <File Include="WebData/BundleResult/Main/IS_20191226_min_v1.js">
+      <publishTime>01/17/2020 20:39:47</publishTime>
+    </File>
+    <File Include="WebData/BundleResult/Main/IS_20191226_min_v1_CSS.css">
+      <publishTime>01/17/2020 20:39:47</publishTime>
+    </File>
+    <File Include="WebData/BundleResult/Main/IS_20200117_min_v1.js">
+      <publishTime>01/17/2020 21:08:47</publishTime>
+    </File>
+    <File Include="WebData/BundleResult/Main/IS_20200117_min_v1_CSS.css">
+      <publishTime>01/17/2020 21:08:47</publishTime>
+    </File>
+    <File Include="WebData/BundleResult/Main/IS_202003032_min_v1.js">
+      <publishTime>03/03/2020 23:31:40</publishTime>
+    </File>
+    <File Include="WebData/BundleResult/Main/IS_202003032_min_v1_CSS.css">
+      <publishTime>03/03/2020 23:31:40</publishTime>
+    </File>
+    <File Include="WebData/BundleResult/Main/IS_20200303_min_v1.js">
+      <publishTime>03/03/2020 00:23:25</publishTime>
+    </File>
+    <File Include="WebData/BundleResult/Main/IS_20200303_min_v1_CSS.css">
+      <publishTime>03/03/2020 00:23:25</publishTime>
+    </File>
+    <File Include="WebData/BundleResult/Main/IS_20200501_min_v1.js">
+      <publishTime>05/01/2020 11:20:22</publishTime>
+    </File>
+    <File Include="WebData/BundleResult/Main/IS_20200501_min_v1_CSS.css">
+      <publishTime>05/01/2020 11:20:22</publishTime>
+    </File>
+    <File Include="WebData/BundleResult/Main/IS_20200516_min_v1.js">
+      <publishTime>05/16/2020 23:51:06</publishTime>
+    </File>
+    <File Include="WebData/BundleResult/Main/IS_20200516_min_v1_CSS.css">
+      <publishTime>05/16/2020 23:51:06</publishTime>
+    </File>
+    <File Include="WebData/ConfigFile/connection.json">
+      <publishTime>08/27/2019 22:47:14</publishTime>
+    </File>
+    <File Include="WebData/ConfigFile/dbConnection.json">
+      <publishTime>09/01/2019 14:21:47</publishTime>
+    </File>
+    <File Include="WebData/ConfigFile/report.json">
+      <publishTime>10/25/2019 00:20:57</publishTime>
+    </File>
+    <File Include="WebData/CSS/External/googlefont.css">
+      <publishTime>08/28/2019 00:12:06</publishTime>
+    </File>
+    <File Include="WebData/Picture/error_message.png">
+      <publishTime>06/03/2019 11:17:33</publishTime>
+    </File>
+    <File Include="WebData/Picture/icon/material-io/baseline_add_circle_black_48dp.png">
+      <publishTime>04/13/2018 05:44:35</publishTime>
+    </File>
+    <File Include="WebData/Picture/icon/material-io/baseline_delete_forever_black_48dp.png">
+      <publishTime>04/13/2018 06:49:27</publishTime>
+    </File>
+    <File Include="WebData/Picture/icon/material-io/baseline_edit_black_48dp.png">
+      <publishTime>04/13/2018 05:44:59</publishTime>
+    </File>
+    <File Include="WebData/Picture/icon/material-io/sharp_arrow_drop_down_black_48dp.png">
+      <publishTime>04/13/2018 03:59:30</publishTime>
+    </File>
+    <File Include="WebData/Picture/loading.gif">
+      <publishTime>06/03/2019 11:17:33</publishTime>
+    </File>
+    <File Include="WebData/Picture/login/bottom_wave.png">
+      <publishTime>08/28/2019 01:01:01</publishTime>
+    </File>
+    <File Include="WebData/Picture/login/homepage_logo.png">
+      <publishTime>08/19/2019 14:52:49</publishTime>
+    </File>
+    <File Include="WebData/Picture/login/main_pic.png">
+      <publishTime>08/28/2019 01:02:07</publishTime>
+    </File>
+    <File Include="WebData/Picture/login/top_wave.png">
+      <publishTime>08/28/2019 01:01:38</publishTime>
+    </File>
+    <File Include="WebData/Server_Code/S_AccountManagement.aspx">
+      <publishTime>09/26/2019 22:23:42</publishTime>
+    </File>
+    <File Include="WebData/Server_Code/S_ChangePassword.aspx">
+      <publishTime>09/26/2019 01:03:11</publishTime>
+    </File>
+    <File Include="WebData/Server_Code/S_CheckAccountStatus.aspx">
+      <publishTime>08/29/2019 00:26:56</publishTime>
+    </File>
+    <File Include="WebData/Server_Code/S_DataChecker.aspx">
+      <publishTime>09/13/2019 22:52:05</publishTime>
+    </File>
+    <File Include="WebData/Server_Code/S_DetailedIncomeData.aspx">
+      <publishTime>09/02/2019 16:42:43</publishTime>
+    </File>
+    <File Include="WebData/Server_Code/S_FamilyData.aspx">
+      <publishTime>09/21/2019 00:49:10</publishTime>
+    </File>
+    <File Include="WebData/Server_Code/S_FamInfo.aspx">
+      <publishTime>09/27/2019 01:17:43</publishTime>
+    </File>
+    <File Include="WebData/Server_Code/S_IncomeStateData.aspx">
+      <publishTime>09/01/2019 13:02:48</publishTime>
+    </File>
+    <File Include="WebData/Server_Code/S_InitialTable.aspx">
+      <publishTime>08/27/2019 22:20:51</publishTime>
+    </File>
+    <File Include="WebData/Server_Code/S_LoginChecker.aspx">
+      <publishTime>08/27/2019 00:32:02</publishTime>
+    </File>
+    <File Include="WebData/Server_Code/S_Logout.aspx">
+      <publishTime>08/29/2019 22:59:07</publishTime>
+    </File>
+    <File Include="WebData/Server_Code/S_MyFamInfo.aspx">
+      <publishTime>09/02/2019 23:31:50</publishTime>
+    </File>
+    <File Include="WebData/Server_Code/S_MySysUser.aspx">
+      <publishTime>09/28/2019 12:35:19</publishTime>
+    </File>
+    <File Include="WebData/Server_Code/S_ParamInfo.aspx">
+      <publishTime>09/01/2019 21:20:36</publishTime>
+    </File>
+    <File Include="WebData/Server_Code/S_SubjectData.aspx">
+      <publishTime>09/01/2019 15:51:36</publishTime>
+    </File>
+    <File Include="WebData/Server_Code/S_Tableau.aspx">
+      <publishTime>10/25/2019 00:10:41</publishTime>
+    </File>
+  </ItemGroup>
+</Project>

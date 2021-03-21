@@ -1,0 +1,23 @@
+body {
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	height: auto;
+	min-width:1200px;
+	min-height: 500px;
+	margin: auto;
+	color: #6b7485;
+	font-family: '文泉驛微米黑 Regular', '文泉驛微米黑','Arial Negreta cursiva', 'Arial','微軟正黑體';
+	overflow-x:auto;
+}
+a, abbr, acronym, address, applet, article, aside, audio, big, blockquote, body, canvas, caption, center, cite, code, dd, del, details, dfn, div, dl, dt, em, embed, fieldset, figcaption, figure, footer, form, h1, h2, h3, h4, h5, h6, header, hgroup, html, i, iframe, img, ins, kbd, label, legend, li, mark, menu, nav, object, ol, output, p, pre, q, ruby, s, samp, section, small, span, strike, sub, summary, sup, table, tbody, td, tfoot, th, thead, time, tr, tt, u, ul, var, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	transition: width .2s ease, background .2s ease, height .2s ease;
+	font-family: '微軟正黑體';
+	font-weight: 400;
+}
+.button:hover{
+	cursor: pointer;
+}
