@@ -20,11 +20,32 @@ function IVueInitialCreator() {
       components: {
       },
       data: {
+        menu: [
+          {
+            key: "comp_intro",
+          },
+          {
+            key: "news",
+          },
+          {
+            key: "product_intro",
+          },
+          {
+            key: "download",
+          },
+          {
+            key: "contact",
+          },
+          {
+            key: "home",
+          },
+        ],
       },
       methods: {
       },
       updated() {},
       computed: {
+        ...mapState(['languageState']),
       },
       created() {},
       async mounted() {

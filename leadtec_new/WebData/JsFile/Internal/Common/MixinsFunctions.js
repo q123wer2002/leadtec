@@ -1,5 +1,15 @@
 import 'babel-polyfill';
 import mixinDataModel from './MixinsDataModel.js';
+import languageModel from './language/package.js';
+
+const fnGetLanguageCode = () => {
+  const queryString = window.location.search;
+  const urlParams = new URLSearchParams(queryString);
+  const urlLanCode = urlParams.get("languageCode");
+  return urlLanCode === null
+    ? navigator.language || navigator.userLanguage
+    : urlLanCode;
+}
 
 /* eslint-disable no-undef */
 /* eslint-disable no-unused-vars */
@@ -15,6 +25,16 @@ const mixinFuncitons = {
     window.location = `${
       currentURLInfo.href
     }${webpackDashboardName}/Login.html`;
+  },
+
+  mixinLanguage() {
+    const defaultLanCode = "en";
+    const languageCode = fnGetLanguageCode();
+    if (languageModel[languageCode] === undefined) {
+      return languageModel["en"];
+    }
+
+    return languageModel[languageCode];
   },
 
   // check status

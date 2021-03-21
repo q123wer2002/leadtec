@@ -24,11 +24,10 @@
         <!-- Header -->
             <header id="header">
                 <div class="inner">
-                    <a href="index.html" class="logo"><strong>Projection</strong> by TEMPLATED</a>
                     <nav id="nav">
-                        <a href="index.html">Home</a>
-                        <a href="generic.html">Generic</a>
-                        <a href="elements.html">Elements</a>
+                        <a v-for="mm in menu" href="index.html">
+                            {{languageState[mm.key]}}
+                        </a>
                     </nav>
                     <a href="#navPanel" class="navPanelToggle"><span class="fa fa-bars"></span></a>
                 </div>

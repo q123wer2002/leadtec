@@ -8,6 +8,7 @@ Vue.use(Vuex); // regist Vuex to Vue
 const vueStore = new Vuex.Store({
   modules: {},
   state: {
+  	languageState: UtilFn.mixinLanguage(),
   },
   mutations: {
   },
