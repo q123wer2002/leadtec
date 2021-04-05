@@ -93,7 +93,8 @@ let webpackSetting = {
 		alias: {
 			'vue': path.resolve(__dirname, './node_modules/vue/dist/vue.esm.js'),
 			'jquery': path.resolve(__dirname, './node_modules/jquery/dist/jquery.js'),
-		}
+			"icons": path.resolve(__dirname, "./node_modules/vue-material-design-icons"),
+		},
 	},
 	plugins: [
 		new webpack.DefinePlugin(connectionSetting),

@@ -5,6 +5,9 @@ import 'bootstrap/dist/css/bootstrap.css';
 import 'bootstrap-vue/dist/bootstrap-vue.css';
 import vueStore from '../Vuex/Vuex_GlobalStore';
 import '../Mixins/Vue_GlobalMixins';
+import CarIcon from 'vue-material-design-icons/Car.vue';
+import CameraIcon from 'vue-material-design-icons/Camera.vue';
+import BugIcon from 'vue-material-design-icons/Bug.vue';
 
 Vue.use(BootstrapVue);
 
@@ -18,9 +21,12 @@ function IVueInitialCreator() {
       store: vueStore,
       el: '#vue-instance',
       components: {
+        CarIcon,
+        CameraIcon,
+        BugIcon
       },
       data: {
-        menu: [
+        menuAry: [
           {
             key: "comp_intro",
           },
