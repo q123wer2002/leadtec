@@ -53,6 +53,7 @@ export default {
     #header .inner {
       margin: 0 auto;
       position: relative;
+      width: 75em;
     }
 
     #header .logo {
