@@ -16,6 +16,7 @@ let webpackSetting = {
 	mode: 'development',
 	entry: {
 		"Main/LD_20210321_min_v1": "../WebData/JsFile/Internal/Main/SystemInitial.js",
+		"News/LD_20210321_min_v1": "../WebData/JsFile/Internal/News/SystemInitial.js",
 	},
 	devtool: 'cheap-source-map',//dev used
 	devServer: {

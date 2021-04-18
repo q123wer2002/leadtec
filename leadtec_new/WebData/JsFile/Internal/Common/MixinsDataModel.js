@@ -25,6 +25,32 @@ const CommonDataModel = {
     dataChecker: `S_DataChecker.aspx`,
     reporter: `S_Tableau.aspx`,
   },
+  mixinMenuAry: [
+    {
+      text_key: "comp_intro",
+      link: "Main.aspx"
+    },
+    {
+      text_key: "news",
+      link: "News.html"
+    },
+    {
+      text_key: "product_intro",
+      link: "Main.aspx"
+    },
+    {
+      text_key: "download",
+      link: "Main.aspx"
+    },
+    {
+      text_key: "contact",
+      link: "Main.aspx"
+    },
+    {
+      text_key: "home",
+      link: "Main.aspx"
+    },
+  ],
 };
 
 export default CommonDataModel;

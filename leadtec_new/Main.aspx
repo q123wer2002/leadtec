@@ -23,16 +23,7 @@
     <body>
         <div id="vue-instance">
         <!-- Header -->
-            <header id="header">
-                <div class="inner">
-                    <nav id="nav">
-                        <a v-for="mm in menuAry" href="index.html">
-                            {{languageState[mm.key]}}
-                        </a>
-                    </nav>
-                    <a href="#navPanel" class="navPanelToggle"><span class="fa fa-bars"></span></a>
-                </div>
-            </header>
+            <header-component></header-component>
 
         <!-- Banner -->
             <section id="banner">
@@ -102,10 +93,7 @@
                 ></iframe>
             </section>
 
-            <footer class="align-center" style="background: #DD0012;">
-                <p style="margin: 0;color: white">LEADTEC CO., LTD. 利慶工業股份有限公司</p>
-                <p style="margin: 0;color: white">&copy; 2021 LEADTEC</p>
-            </footer>
+            <footer-component></footer-component>
         </div>
     </body>
 </html>

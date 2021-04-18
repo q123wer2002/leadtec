@@ -8,6 +8,8 @@ import '../Mixins/Vue_GlobalMixins';
 import BicycleIcon from 'vue-material-design-icons/Bicycle.vue';
 import ProfessionalHexagonIcon from 'vue-material-design-icons/ProfessionalHexagon.vue';
 import CogIcon from 'vue-material-design-icons/Cog.vue';
+import HeaderComponent from '../../../Common/Components/CVue_Header.vue';
+import FooterComponent from '../../../Common/Components/CVue_Footer.vue';
 
 Vue.use(BootstrapVue);
 
@@ -21,31 +23,13 @@ function IVueInitialCreator() {
       store: vueStore,
       el: '#vue-instance',
       components: {
+        HeaderComponent,
+        FooterComponent,
         BicycleIcon,
         ProfessionalHexagonIcon,
         CogIcon
       },
       data: {
-        menuAry: [
-          {
-            key: "comp_intro",
-          },
-          {
-            key: "news",
-          },
-          {
-            key: "product_intro",
-          },
-          {
-            key: "download",
-          },
-          {
-            key: "contact",
-          },
-          {
-            key: "home",
-          },
-        ],
         featureAry: [
           {
             icon: "BicycleIcon",
@@ -95,8 +79,7 @@ function IVueInitialCreator() {
       },
       updated() {},
       computed: {
-        ...mapState(['languageState']),
-
+        ...mapState(['languageState', 'menuAry']),
       },
       created() {},
       async mounted() {

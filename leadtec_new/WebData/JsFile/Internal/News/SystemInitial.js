@@ -7,11 +7,11 @@ import 'url-polyfill';
 import './Vue/Instance/IVue_Initial.js';
 
 // import css
-import '../../../CSS/Internal/Main/layout.css';
+import '../../../CSS/Internal/News/layout.css';
 
 $(window).on('load', () => {
   // start
-  IncomeStatement.js_Vue_Instance.IVue_Initial.Intital();
+  Leadtec.js_Vue_Instance.IVue_Initial.Intital();
 });
 
 // develop code for webpakc HMR Use
