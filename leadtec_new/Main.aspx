@@ -1,13 +1,14 @@
 ﻿<%@ Page Language="C#" AutoEventWireup="true" Inherits="Main" Codebehind="Main.aspx.cs" %>
 
 <!DOCTYPE html>
-<html xmlns="http://www.w3.org/1999/xhtml">
+<html>
     <head runat="server">
-        <title>Leadtec</title>
+        <title>利慶工業 Leadtec</title>
         <meta http-equiv="Pragma" content="no-cache" />
         <meta http-equiv="Cache-Control" content="no-cache, must-revalidate"/>
         <meta http-equiv="expires" content="0" />
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <link rel="shortcut icon" href="/leadtec/WebData/Picture/icon/leadtec.ico">
 
         <!--import JS and CS file -->
 <!--
@@ -40,30 +41,16 @@
                         <h1>{{languageState["leadtec"]}}</h1>
                     </header>
 
-                    <div class="flex ">
-
-                        <div>
-                            <car-icon></car-icon>
-                            <h3>Aliquam</h3>
-                            <p>Suspendisse amet ullamco</p>
+                    <div class="flex">
+                        <div v-for="feature in featureAry">
+                            <component v-bind:is="feature.icon" :size="48" fillColor="#FF0000"></component>
+                            <h3>{{languageState[feature.title]}}</h3>
+                            <p>{{languageState[feature.detail]}}</p>
                         </div>
-
-                        <div>
-                            <camera-icon></camera-icon>
-                            <h3>Elementum</h3>
-                            <p>Class aptent taciti ad litora</p>
-                        </div>
-
-                        <div>
-                            <bug-icon></bug-icon>
-                            <h3>Ultrices</h3>
-                            <p>Nulla vitae mauris non felis</p>
-                        </div>
-
                     </div>
 
                     <footer>
-                        <a href="#" class="button">Get Started</a>
+                        <a href="javascript:;" class="button">{{languageState["SeeMore"]}}</a>
                     </footer>
                 </div>
             </section>
@@ -73,64 +60,51 @@
             <section id="three" class="wrapper align-center">
                 <div class="inner">
                     <div class="flex flex-2">
-                        <article>
-                            <div class="image round">
-                                <img src="images/pic01.jpg" alt="Pic 01" />
-                            </div>
+                        <article v-for="intro in introMainAry">
                             <header>
-                                <h3>Lorem ipsum<br /> dolor amet nullam</h3>
+                                <h3>{{languageState[intro.title]}}</h3>
                             </header>
-                            <p>Morbi in sem quis dui placerat ornare. Pellentesquenisi<br />euismod in, pharetra a, ultricies in diam sed arcu. Cras<br />consequat  egestas augue vulputate.</p>
-                            <footer>
-                                <a href="#" class="button">Learn More</a>
-                            </footer>
-                        </article>
-                        <article>
-                            <div class="image round">
-                                <img src="images/pic02.jpg" alt="Pic 02" />
-                            </div>
-                            <header>
-                                <h3>Sed feugiat<br /> tempus adipicsing</h3>
-                            </header>
-                            <p>Pellentesque fermentum dolor. Aliquam quam lectus<br />facilisis auctor, ultrices ut, elementum vulputate, nunc<br /> blandit ellenste egestagus commodo.</p>
-                            <footer>
-                                <a href="#" class="button">Learn More</a>
-                            </footer>
+                            <div
+                                v-for="picSrc in intro.picAry"
+                                :style="{
+                                    backgroundImage: 'url(' + picSrc + ')',
+                                    width: '160px',
+                                    height: '160px',
+                                    backgroundSize: 'cover',
+                                    display: 'inline-block',
+                                    margin:'0.4em',
+                                    borderRadius: '8px'}"></div>
                         </article>
                     </div>
                 </div>
             </section>
 
-        <!-- Footer -->
-            <footer id="footer">
+        <!-- Four -->
+            <section id="four" class="wrapper" style="background: url('http://www.leadtec.com.tw/upload/Image/main/1108_4.jpg');background-size: cover;background-repeat: no-repeat;">
                 <div class="inner">
-
-                    <h3>Get in touch</h3>
-
-                    <form action="#" method="post">
-
-                        <div class="field half first">
-                            <label for="name">Name</label>
-                            <input name="name" id="name" type="text" placeholder="Name">
-                        </div>
-                        <div class="field half">
-                            <label for="email">Email</label>
-                            <input name="email" id="email" type="email" placeholder="Email">
-                        </div>
-                        <div class="field">
-                            <label for="message">Message</label>
-                            <textarea name="message" id="message" rows="6" placeholder="Message"></textarea>
-                        </div>
-                        <ul class="actions">
-                            <li><input value="Send Message" class="button alt" type="submit"></li>
-                        </ul>
-                    </form>
-
-                    <div class="copyright">
-                        &copy; Untitled. Design: <a href="https://templated.co">TEMPLATED</a>. Images: <a href="https://unsplash.com">Unsplash</a>.
+                    <div class="flex flex-2" style="color: white;width: 35%">
+                        <h3 style="color: white">{{languageState['company_philosophy']}}</h3>
+                        <p>{{languageState['company_intro_1']}}</p>
+                        <p>{{languageState['company_intro_2']}}<p>
                     </div>
-
                 </div>
+            </section>
+        <!-- Five -->
+            <section id="five" class="wrapper align-center" style="padding: 6em 0 2em 0;">
+                <iframe
+                    frameborder="0"
+                    width="90%"
+                    height="500"
+                    marginheight="0"
+                    marginwidth="0"
+                    scrolling="no"
+                    src="https://maps.google.com.tw/maps?f=q&amp;source=s_q&amp;hl=zh-TW&amp;geocode=&amp;q=%E5%BD%B0%E5%8C%96%E7%B8%A3%E7%A6%8F%E8%88%88%E9%84%89%E7%A6%8F%E8%88%88%E5%B7%A5%E6%A5%AD%E5%8D%80%E7%A6%8F%E5%B7%A5%E8%B7%AF25%E8%99%9F&amp;aq=&amp;sll=24.012601,120.493616&amp;sspn=0.001335,0.001725&amp;brcurrent=3,0x346947e0e9af21fd:0x2fbfa2a1bff03550,0,0x3469491eb5791475:0xd6e84b58ba347f27&amp;ie=UTF8&amp;hq=&amp;hnear=506%E5%BD%B0%E5%8C%96%E7%B8%A3%E7%A6%8F%E8%88%88%E9%84%89%E7%A6%8F%E5%B7%A5%E8%B7%AF25%E8%99%9F&amp;t=m&amp;ll=24.008522,120.490236&amp;spn=0.037634,0.054846&amp;z=14&amp;iwloc=A&amp;output=embed"
+                ></iframe>
+            </section>
+
+            <footer class="align-center" style="background: #DD0012;">
+                <p style="margin: 0;color: white">LEADTEC CO., LTD. 利慶工業股份有限公司</p>
+                <p style="margin: 0;color: white">&copy; 2021 LEADTEC</p>
             </footer>
         </div>
     </body>
