@@ -101,8 +101,8 @@
   <ItemGroup>
     <Content Include="Error.html" />
     <Content Include="Global.asax" />
-    <Content Include="Login.html" />
     <Content Include="Main.aspx" />
+    <Content Include="News.html" />
     <Content Include="Web.config">
       <SubType>Designer</SubType>
     </Content>
